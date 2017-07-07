@@ -5,8 +5,3 @@ html, body {
     background: #24272c;
     overflow: hidden !important;
 }
-
-.grid-label {
-  font-family: 'Roboto', sans-serif;
-  font-size: .8em;
-}
