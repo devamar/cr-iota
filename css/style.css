@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html, body {
-    margin: 0px;
-    background: #24272c;
-    overflow: hidden !important;
+body, html {
+  margin: 0px;
+  overflow: hidden;
+}
+
+svg {
+  font-family: Roboto !important;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.line {
+	fill: none;
+	stroke-width: 1.2px;
 }
